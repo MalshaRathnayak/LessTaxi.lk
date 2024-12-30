@@ -71,3 +71,15 @@ input:focus, select:focus {
 .submit-btn:hover {
   background-color: #011C3A;
 }
+.popup {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 400px;
+}
