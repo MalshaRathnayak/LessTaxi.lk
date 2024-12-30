@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles.css';
+import '../styles/verifyStyles.css';
 import verify from './assets/verify.png';
 
 const VerifyPage = () => {

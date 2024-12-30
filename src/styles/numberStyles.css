@@ -1,0 +1,65 @@
+.number-page {
+    background-color: #ffffff; 
+    height: 81.3vh; 
+    margin: 0;
+    padding: 3rem 1.5rem;
+  }
+
+  .number-page h1 {
+    font-size: 1.5rem;  
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -0.5rem; 
+  }
+  .verification-text {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 30px; 
+  }
+  .input-container {
+    margin-top: 320px !important;
+    margin-left: -20px !important;
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+    gap: 10px; 
+  }
+  
+  .flag-style {
+    width: 42px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 28px;
+  }
+  
+  .phone-input {
+    padding: 10px;
+    position: relative;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 250px;
+  }
+  
+.next-btn {
+    font-size: 1.3rem; 
+    font-weight: bold;
+    padding: 1rem 2.5rem; 
+    background-color: #011C3A; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 25px; 
+    margin: 20px auto; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    display: block; 
+    margin-top: 55px;
+    margin-left: 130px;
+  }
+  
+  .next-btn:hover {
+    background-color: #011C3A;
+  }

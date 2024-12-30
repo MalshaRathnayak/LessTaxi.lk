@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css';
+import '../styles/numberStyles.css';
 import { useNavigate } from 'react-router-dom';
 import start from './assets/start.png';
 import flag from './assets/flag.png';
@@ -13,7 +13,7 @@ const NumberPage = () => {
   return (
     <div className="number-page">
       <h1>Enter your number</h1>
-      <img src={start} alt="Start" className="image-style" />
+      <img src={start} alt="Start" className="start-image" />
       <p className="verification-text">We will send you a verification code to this number</p>
       <div className="input-container">
         <img src={flag} alt="Flag" className="flag-style" />

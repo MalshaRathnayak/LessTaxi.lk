@@ -1,0 +1,65 @@
+.page-container {
+    height: 81.3vh;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 3rem 1.5rem;
+    flex-direction: column; 
+  }
+  
+  .text-small {
+    font-size: 1rem; 
+    margin: 0 0 1rem;
+    padding-left: 1rem; 
+  }
+  
+  .text-large {
+    font-size: 1.5rem; 
+    margin: 0;
+    padding-left: 1rem; 
+  }
+  .start-image {
+    width: 280px ; 
+    height: 240px ;
+    position: absolute;
+    top: 150px;
+    left: 4rem; 
+    object-fit: cover;
+  }
+  
+  .taxi-text {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 20rem;
+    margin-left: 1.5rem;  
+  }
+  .second-text {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: -0.5rem;
+    margin-left: 2.5rem;  
+  }
+  .third-text {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: -0.5rem;
+    margin-left: 8rem;  
+  }
+  .get-start-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 2rem; 
+    background-color: #011C3A; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 25px;
+    margin-top: 3rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  
+    align-self: center; 
+    margin-left: 100px;
+    margin-right: auto; 
+}

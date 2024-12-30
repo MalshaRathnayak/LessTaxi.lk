@@ -1,0 +1,83 @@
+.activity-details-container {
+  max-width: 600px;
+  min-height: calc(90vh - 50px);
+  margin: 20px auto;
+  padding: 0 20px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.activity-details-header {
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+.activity-details-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.scrollable-content {
+  max-height: 550px !important; 
+  overflow-y: auto; 
+  padding-bottom: 5px; 
+}
+
+.activity-info {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.activity-info p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.activity-info strong {
+  color: #000;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px !important;
+  margin-left: 250px;
+  padding: 10px 20px;
+  background-color: #011C3A;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #011C3A;
+}
+
+@media (max-width: 600px) {
+  .activity-details-container {
+    padding: 15px;
+  }
+
+  .activity-details-header h1 {
+    font-size: 20px;
+  }
+
+  .activity-info p {
+    font-size: 16px;
+    margin-left: 18px;
+  }
+
+  .back-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+  }
+}

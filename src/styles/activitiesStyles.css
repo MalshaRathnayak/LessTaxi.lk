@@ -1,0 +1,81 @@
+.activities-page {
+    background-color: #ffffff;
+    min-height: calc(95vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .activities-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: 12px;
+    margin-left: -10px;
+  }
+  .activities-tabs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .tab-button.active {
+    border-bottom: 3px solid #E4AF3F;
+    color: #011C3A;
+    font-weight: bold;
+  }
+  
+  .tab-button:hover {
+    color: #011C3A;
+  }
+  
+  .activities-content {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    width: 80%;
+    max-height: 70vh;
+    overflow-y: auto;
+    margin-top: -10px;
+  }
+  
+  .activities-content p {
+    margin: 8px 0;
+  }
+  
+  .activities-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .nav-icon {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .nav-icon span {
+    font-size: 12px;
+    color: #555;
+  }

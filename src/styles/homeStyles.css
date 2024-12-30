@@ -1,0 +1,218 @@
+.home-page {
+    background-color: #ffffff;
+    position: relative;
+    padding: 2.7rem 1.5rem;
+    height: 85vh;
+    margin: -0vh auto;
+    overflow-x: hidden !important;
+    min-height: calc(99.2vh - 50px);  
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+.header-box {
+  border: 4px solid #011C3A; 
+  height: 90px; 
+  width: 112%;
+  margin-left: -24px;
+  background-color: #011C3A; 
+  border-radius: 0; 
+  text-align: center; 
+  margin-top: -48px;
+}
+
+.text-h1 {
+  font-size: 1.5rem; 
+  font-weight: normal; 
+  color: #ffffff; 
+  margin: 10px 0;
+  text-align: flex; 
+  margin-top: -85px;
+  margin-left: 25px;
+}
+
+.name-text {
+  font-size: 1.6rem; 
+  margin-top: -5px;
+  margin-left: 25px;
+  color: #ffffff;
+  font-weight: bold; 
+  text-align: flex; 
+  position: absolute;
+}
+
+.box-container {
+  display: flex;
+  justify-content: 150px; 
+  margin-top: 65px; 
+}
+
+.box {
+  width: 130px !important; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 10px; 
+  margin-left: -25px !important;
+}
+
+.box-container {
+  display: flex;
+  justify-content: 30px;
+  width: 70%; 
+}
+
+.box {
+  width: 90px;
+  height: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px; 
+  cursor: pointer;
+  margin-bottom: 1px;
+  margin-left: -50px;
+}
+
+.box-content {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.box-content:hover {
+  transform: scale(1.05);
+}
+
+.box-title {
+  font-weight: bold;
+  margin-top: 115px;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.box-inquiries .box-content {
+  background-color: #ebebeb;
+  margin-left: 25px; 
+  margin-top: -50px;
+  width: 120px;
+}
+
+.box-deals .box-content {
+  background-color: #ebebeb; 
+  margin-left: 70px;
+  width: 100% !important;
+  margin-top: -50px;
+}
+
+.box-hotels .box-content {
+  background-color: #ebebeb; 
+  margin-left: 210px;
+  margin-right: 100px;
+  margin-top: -50px;
+  position: relative;
+  width: 90% !important;
+}
+
+.box-title:hover {
+  color: #ffffff;
+}
+
+.box-inquiries .box-content:hover {
+  background-color: #ffffff; 
+}
+
+.box-deals .box-content:hover {
+  background-color: #ffffff; 
+}
+
+.box-hotels .box-content:hover {
+  background-color: #ffffff; 
+}
+.hotels-style {
+  width: 65px !important; 
+  height: 65px !important; 
+  position: absolute;
+  margin-top: 0rem;
+  padding-left: 0.5rem;
+  z-index: 1; 
+  object-fit: cover;
+}
+.deals-style {
+  width: 75px !important; 
+  height: 67px !important; 
+  position: absolute;
+  margin-top: 0rem;
+  padding-left: -100rem ;
+  z-index: 1; 
+  object-fit: cover;
+  margin-right: 1px;
+}
+.inquiries-style {
+  width: 100px !important; 
+  height: 80px !important; 
+  position: absolute;
+  margin-top: -0rem;
+  padding-left: -10rem ;
+  z-index: 1; 
+  object-fit: cover;
+  margin-right: 4px;
+}
+.post1-style {
+  width: 340px !important; 
+  height: 195px !important; 
+  position: absolute;
+  margin-top: 9rem;
+  padding-left: -100rem ;
+  z-index: 1; 
+  object-fit: cover;
+  right: 30px;
+}
+.post2-style {
+  width: 340px !important; 
+  height: 195px !important; 
+  position: absolute;
+  margin-top: 23rem;
+  padding-left: -200rem ;
+  z-index: 1; 
+  object-fit: cover;
+  right: 29px;
+}
+
+.bottom-nav {
+  position: absolute;
+  bottom: -0;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 5px 0;
+  z-index: 1000;
+  margin-left: -24px;
+}
+
+.nav-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  cursor: pointer;
+}
+
+.nav-icon span {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.nav-icon:hover {
+  color: #000;
+}
