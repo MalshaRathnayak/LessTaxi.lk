@@ -1,0 +1,111 @@
+.number-page {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 420px;
+  margin: 0;
+  padding: 1vw 3vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-page h1 {
+  font-size: 27px;
+  margin-top:75px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #000000;
+}
+
+/* Verification Text */
+.verification-text {
+  font-size: 15px; /* Adjust font size dynamically */
+  font-weight: normal;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  color: #000000;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw; /* Dynamic spacing between elements */
+  margin-top: 5vh; /* Add space above inputs */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  width: 100%; /* Full-width container */
+}
+
+/* Flag Style */
+.flag-style {
+  width: 10vw; /* Scales dynamically with screen size */
+  height: auto;
+  margin-top: 0; /* Remove fixed margin for consistency */
+}
+
+/* Phone Input */
+.phone-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 70%; /* Responsive width */
+  margin-top: -20px;
+  max-width: 300px; /* Limit width for larger screens */
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+.next-btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 150px !important;
+  padding: 0.6rem 1.5rem;
+  background-color: #011C3A;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 4vh;
+  transition: background-color 0.3s ease;
+  width: 60%; /* Adjust width for responsiveness */
+  max-width: 300px; /* Limit button width */
+  text-align: center;
+}
+
+.next-btn:hover {
+  background-color: #022A4E;
+}
+
+/* Country Select */
+.country-select {
+  width: 60%; /* Responsive width */
+  max-width: 300px; /* Limit width for larger screens */
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Country Option */
+.country-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Dynamic spacing */
+}
+
+.country-option span {
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+/* Error Text */
+.error-text {
+  color: red;
+  font-size: 1rem;
+  margin-top: 1vh;
+  text-align: center;
+}

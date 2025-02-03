@@ -1,0 +1,68 @@
+ {
+  "data": [
+      {
+        "id": 1,
+        "name": "One Way"
+      },
+      {
+        "id": 2,
+        "name": "One Way With Stop"
+      },
+      {
+        "id": 3,
+        "name": "Multi Day Tour"
+      },
+      {
+        "id": 4,
+        "name": "Same Day Tour"
+      },
+      {
+        "id": 5,
+        "name": "Two Way"
+      },
+      {
+        "id": 6,
+        "name": "Safari"
+      },
+      {
+        "id": 8,
+        "name": "Surf Lesson"
+      },
+      {
+        "id": 9,
+        "name": "Wildlife"
+      },
+      {
+        "id": 10,
+        "name": "Birds Watching"
+      },
+      {
+        "id": 11,
+        "name": "River Sfaria"
+      },
+      {
+        "id": 12,
+        "name": "Whales Watching"
+      },
+      {
+        "id": 13,
+        "name": "Water sports"
+      },
+      {
+        "id": 14,
+        "name": "Snorkelling"
+      },
+      {
+        "id": 15,
+        "name": "Diving and surfing"
+      },
+      {
+        "id": 16,
+        "name": "Trekking"
+      },
+      {
+        "id": 17,
+        "name": "City Tours"
+      }
+    ]
+}  

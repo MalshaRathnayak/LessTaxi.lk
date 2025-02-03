@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Full height of the viewport */
+  width: 100%; /* Full width of the viewport */
+  background-color: #e0e0e0 !important; /* White background for extra spaces */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent unwanted scrollbars */
+}
+
+/* Main container for the content */
+.page-container {
+  width: 100%; /* Full width of the page */
+  max-width: 420px; /* Limit the container width to 420px */
+  height: 100%; /* Full height of the viewport */
+  background-color: #011C3A; /* Background color for the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent content overflow */
+}
+
+/* Logo styles */
+.logo {
+  width: 100%; /* Default width for the logo */
+  max-width: 260px; /* Ensure the logo doesn't exceed 300px */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer;
+  margin-top: 180px; /* Remove unnecessary margin to prevent vertical scroll */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem; /* Add padding for smaller screens */
+  }
+
+  .logo {
+    max-width: 260px !important; /* Adjust logo size for smaller devices */
+    margin-top: 250px !important; /* Ensure no extra margin creates overflow */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    max-width: 200px; /* Further adjust logo size for small screens */
+    margin-top: 0; /* Prevent unnecessary spacing */
+  }
+}

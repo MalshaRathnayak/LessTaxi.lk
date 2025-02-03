@@ -1,0 +1,102 @@
+.page-container {
+  height: 100vh !important; /* Full viewport height */
+  width: 420px;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Limit max width for larger screens */
+  margin: 20px 0;
+}
+
+.text-small {
+  font-size: 25px !important; /* Responsive font size based on viewport width */
+  font-weight: bold;
+  margin: 1rem;
+  margin-top: 60px !important;
+  color: #011C3A; /* Adjust the color as needed */
+  text-align: center;
+}
+
+.start-image {
+  width: 100%; /* Default image width for mobile */
+  max-width: 300px; /* Max image size for large screens */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.taxi-text,
+.second-text,
+.third-text {
+  font-size: 17px !important; /* Responsive font size based on viewport width */
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.get-start-btn {
+  font-size: 5vw; /* Button font size based on viewport width */
+  font-weight: bold;
+  padding: 2vw 4vw; /* Padding based on viewport width */
+  width: 180px;
+  background-color: #011C3A;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-start-btn:hover {
+  background-color: #022A4E;
+}
+
+/* Responsive layout: No need to separate media queries */
+.container {
+  display: flex;
+  flex-direction: column; /* Default to column layout for mobile-first */
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  /* Tablet and above: Adjust layout and font sizes */
+  .container {
+    flex-direction: row; /* Change to row layout on tablets/desktops */
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  .text-small {
+    font-size: 1.8vw; /* Responsive font size based on viewport width */
+    font-weight: bold;
+    margin: 1rem;
+    margin-top: 20px !important;
+    margin-top: 50px;
+    color: #011C3A; /* Adjust the color as needed */
+    text-align: center;
+  }
+
+  .start-image {
+    width: 60%; /* Image size for larger screens */
+  }
+
+  .taxi-text,
+  .second-text,
+  .third-text {
+    font-size: 1.5vw; /* Responsive font size for larger screens */
+  }
+
+  .get-start-btn {
+    font-size: 1.5vw; /* Adjust button size for larger screens */
+    padding: 0.5vw 2vw;
+  }
+}

@@ -1,0 +1,268 @@
+.home-page {
+    background-color: #ffffff;
+    position: relative;
+    padding: 2.3rem 1.5rem;
+    height: 100vh;
+    margin: 0vh auto;
+    overflow-x: hidden !important;
+    min-height: calc(90vh - 50px);  
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+.header-box {
+  border: 4px solid #011C3A; 
+  height: 110px; 
+  width: 115%;
+  margin-left: -24px;
+  background-color: #011C3A; 
+  border-radius: 0; 
+  text-align: center; 
+  margin-top: -45px;
+}
+
+.text-h1 {
+  font-size: 20px !important;  
+  font-weight: bold; 
+  color: #ffffff; 
+  margin: 10px 0;
+  text-align: flex; 
+  margin-top: -75px;
+  margin-left: 25px;
+}
+
+.name-text {
+  font-size: 20px !important; 
+  margin-top: -5px;
+  margin-left: 25px;
+  color: #ffffff;
+  font-weight: bold; 
+  text-align: flex; 
+  position: absolute;
+}
+
+.box-container {
+  display: flex;
+  justify-content: 150px; 
+  margin-top: 65px; 
+}
+
+.box {
+  width: 130px !important; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 10px; 
+  margin-left: -15px !important;
+}
+
+.box-container {
+  display: flex;
+  justify-content: 30px;
+  width: 70%; 
+}
+
+.box {
+  width: 90px;
+  height: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px; 
+  cursor: pointer;
+  margin-bottom: 1px;
+  margin-left: -50px;
+}
+
+.box-content {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.box-content:hover {
+  transform: scale(1.05);
+}
+
+.box-title {
+  font-weight: bold;
+  margin-top: 105px;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.box-inquiries .box-content {
+  background-color: #ebebeb;
+  margin-left: 45px; 
+  margin-top: -50px;
+  width: 120px;
+}
+
+.box-deals .box-content {
+  background-color: #ebebeb; 
+  margin-left: 65px;
+  width: 100% !important;
+  margin-top: -50px;
+}
+
+.box-hotels .box-content {
+  background-color: #ebebeb; 
+  margin-left: 160px;
+  margin-right: 80px;
+  margin-top: -50px;
+  position: relative;
+  width: 85% !important;
+}
+
+.box-title:hover {
+  color: #ffffff;
+}
+
+.box-inquiries .box-content:hover {
+  background-color: #ffffff; 
+}
+
+.box-deals .box-content:hover {
+  background-color: #ffffff; 
+}
+
+.box-hotels .box-content:hover {
+  background-color: #ffffff; 
+}
+.hotels-style {
+  width: 65px !important; 
+  height: 65px !important; 
+  position: absolute;
+  margin-top: 0rem;
+  padding-left: 0.5rem;
+  z-index: 1; 
+  object-fit: cover;
+}
+.deals-style {
+  width: 75px !important; 
+  height: 67px !important; 
+  position: absolute;
+  margin-top: 0rem;
+  padding-left: -100rem ;
+  z-index: 1; 
+  object-fit: cover;
+  margin-right: 1px;
+}
+.inquiries-style {
+  width: 100px !important; 
+  height: 80px !important; 
+  position: absolute;
+  margin-top: -0rem;
+  padding-left: -10rem ;
+  z-index: 1; 
+  object-fit: cover;
+  margin-right: 4px;
+}
+.post1-style {
+  width: 350px !important; 
+  height: 170px !important; 
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 100px !important;
+  padding-left: -100rem ;
+  z-index: 1; 
+  object-fit: cover;
+  right: 30px;
+}
+.post2-style {
+  width: 350px !important; 
+  height: 170px !important; 
+  position: absolute;
+  margin-top: 285px;
+  margin-left: -20px !important;
+  padding-left: -100rem !important;
+  z-index: 1; 
+  object-fit: cover;
+  right: 29px;
+}
+
+.bottom-nav {
+  position: fixed; /* Use fixed instead of absolute for better placement */
+    bottom: -10px; /* Ensure it sticks to the bottom */
+    left: 50%; /* Center align */
+    transform: translateX(-50%); /* Adjust for centering */
+    width: 418px; /* Restrict max width for your page layout */
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-top: 1px solid #9e9999;
+    padding: 10px 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.nav-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  cursor: pointer;
+}
+
+.nav-icon span {
+  font-size: 12px;
+  margin-top: 1px;
+}
+.nav-icon:hover {
+  color: #000;
+}
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+  
+  .bottom-nav {
+    position: relative;
+    margin-top: 468px !important; 
+    margin-left: 1px;
+  }
+
+  .box-inquiries .box-content {
+    background-color: #ebebeb;
+    margin-left: 68px; 
+    margin-top: -50px;
+    width: 120px;
+  }
+  
+  .box-deals .box-content {
+    background-color: #ebebeb; 
+    margin-left: 80px;
+    width: 90% !important;
+    margin-top: -50px;
+  }
+  
+  .box-hotels .box-content {
+    background-color: #ebebeb; 
+    margin-left: 160px;
+    margin-right: 80px;
+    margin-top: -50px;
+    position: relative;
+    width: 85% !important;
+  }
+
+  .post1-style {
+    position: absolute;
+    height: 220px !important;
+    margin-top: 120px; 
+    margin-left: 20px !important; /* Adjusted for left alignment */
+    left: 40px !important; /* Ensures it's aligned to the left */
+  }
+
+  .post2-style {
+    height: 220px !important;
+    margin-top: 360px; 
+    margin-left: 20px !important; /* Adjusted for left alignment */
+    left: 40px !important; /* Ensures it's aligned to the left */
+  }
+}

@@ -1,0 +1,154 @@
+.name-page {
+  background-color: #ffffff;
+  padding: 1vw 4vw; /* Use viewport-based padding for responsiveness */
+  height: 100vh;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive Text Styling */
+.right-text {
+  font-size: 28px !important;
+  margin-top: 65px !important;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  font-size: 15px !important; /* Font size scales with screen width */
+  color: #000000;
+  text-align: left;
+  max-width: 95% !important; /* Ensure text doesn't stretch too wide */
+  margin: 2vh 0vh; /* Center text on smaller screens */
+}
+
+/* Line Styling */
+.line {
+  margin-bottom: -2vh; /* Adjust spacing for all screen sizes */
+  width: 80%;
+  border-bottom: 1px solid #000000;
+  margin: 1rem auto; /* Center line */
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: center;
+  gap: 2vw; /* Add space between input boxes */
+  margin-top: 5vh;
+  width: 100%;
+}
+
+/* Input Box */
+.input-box {
+  text-align: left;
+  width: 80%; /* Inputs occupy 45% of container width */
+  max-width: 300px;
+}
+
+.input-box label {
+  font-size: 1.2rem; /* Adjust font size for readability */
+  color: #000000;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-box input {
+  width: 100%; /* Input box spans the container width */
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+/* Email Input */
+#email {
+  width: 250px; /* Responsive email input width */
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: -10px;
+  margin-left:-1px;
+}
+
+#email:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px; /* Add space above buttons */
+  width: 100%;
+}
+
+.next-button {
+  padding: 1rem 2rem; /* Maintain padding */
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #011C3A;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px; 
+  height: 45px;
+  text-align: center; /* Horizontally center the text */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.next-button:hover {
+  background-color: #022A4E;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  /* For Mobile Screens */
+  .name-page {
+    padding: 3vw; /* Add more padding on smaller screens */
+  }
+
+  .right-text {
+    font-size: 6vw; /* Scale the text size for mobile */
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 4.5vw; /* Adjust paragraph size for mobile */
+    text-align: left; /* Left-align text for smaller screens */
+    margin: 2vh 5vw; /* Adjust margins for mobile */
+  }
+
+  .input-container {
+    margin-top: 2vh; /* Adjust spacing for mobile */
+  }
+
+  #email {
+    width: 100%; /* Make email input full-width */
+    margin-left: 0;
+  }
+
+  .next-button {
+    width: 80%; /* Make button wider for smaller screens */
+    font-size: 1.2rem;
+  }
+}
