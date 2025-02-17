@@ -3,27 +3,50 @@
   "name": "The most loved travel deals in Sri Lanka",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "100x100 80x80 80x80 50x50",
-      "type": "image/x-icon",
-      "purpose": "any maskable"
-    },
-    {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "200x200",
-      "purpose": "any maskable"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "550x550",
-      "purpose": "any maskable"
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "logo192_maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512_maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
+  "scope_extensions": [
+    "https://booking.lesstaxi.com/",
+    "https://hotels.lesstaxi.com/",
+    "https://lesstaxi.com/"
+  ],
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "prefer_related_applications": true 
+  "background_color": "#011C3A",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.lesstaxi.app",
+      "id": "com.lesstaxi.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/less-taxi/id123456789"
+    }
+  ]
 }

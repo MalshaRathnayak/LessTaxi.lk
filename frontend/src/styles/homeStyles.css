@@ -44,7 +44,7 @@
 .box-container {
   display: flex;
   justify-content: 150px; 
-  margin-top: 65px; 
+  margin-top: 55px; 
 }
 
 .box {
@@ -168,7 +168,7 @@
 }
 .post1-style {
   width: 350px !important; 
-  height: 170px !important; 
+  height: 160px !important; 
   position: absolute;
   margin-top: 110px;
   margin-left: 100px !important;
@@ -179,9 +179,9 @@
 }
 .post2-style {
   width: 350px !important; 
-  height: 170px !important; 
+  height: 160px !important; 
   position: absolute;
-  margin-top: 285px;
+  margin-top: 280px;
   margin-left: -20px !important;
   padding-left: -100rem !important;
   z-index: 1; 
@@ -224,7 +224,7 @@
   
   .bottom-nav {
     position: relative;
-    margin-top: 468px !important; 
+    margin-top: 477.5px !important; 
     margin-left: 1px;
   }
 
@@ -253,16 +253,18 @@
 
   .post1-style {
     position: absolute;
-    height: 220px !important;
+    height: 200px !important;
+    width: 370px !important;
     margin-top: 120px; 
-    margin-left: 20px !important; /* Adjusted for left alignment */
+    margin-left: 10px !important; /* Adjusted for left alignment */
     left: 40px !important; /* Ensures it's aligned to the left */
   }
 
   .post2-style {
-    height: 220px !important;
+    height: 200px !important;
+    width: 370px !important;
     margin-top: 360px; 
-    margin-left: 20px !important; /* Adjusted for left alignment */
+    margin-left: 10px !important; /* Adjusted for left alignment */
     left: 40px !important; /* Ensures it's aligned to the left */
   }
 }

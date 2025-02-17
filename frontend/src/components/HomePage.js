@@ -5,8 +5,8 @@ import { FaHome, FaBell, FaUser, FaListUl } from 'react-icons/fa';
 import inquiries from './assets/inquiries.png';
 import deals from './assets/deals.png';
 import hotels from './assets/hotels.png';
-import post1 from './assets/post1.webp';
-import post2 from './assets/post2.jpeg';
+import post1 from './assets/post1.png';
+import post2 from './assets/post2.png';
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -42,8 +42,10 @@ const HomePage = () => {
             <img src={hotels} alt="Hotels" className="hotels-style" />
           </div>
         </div>
-        <img src={post1} alt="Post1" className="post1-style" />
-        <img src={post2} alt="Post2" className="post2-style" />
+        <div className="post-section">
+          <img src={post1} alt="Post1" className="post1-style" />
+          <img src={post2} alt="Post2" className="post2-style" />
+        </div>
       </div>
 
       <nav className="bottom-nav">

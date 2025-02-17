@@ -162,19 +162,21 @@
   background-color: #f3f3f3;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 100%;
+  width: 105%;
   margin-left: -13px;
 }
 
 .dropdown-card h4 {
   margin-bottom: 10px;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .dropdown-card p {
   font-size: 1rem;
   color: #555;
   margin-top: 10px;
+  text-align: justify;
 }
 
 /* Adjust margin for the Read More/Read Less link */

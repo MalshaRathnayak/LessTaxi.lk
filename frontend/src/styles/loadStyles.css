@@ -27,11 +27,11 @@ html, body {
 
 /* Logo styles */
 .logo {
-  width: 100%; /* Default width for the logo */
+  width: 130% !important; /* Default width for the logo */
   max-width: 260px; /* Ensure the logo doesn't exceed 300px */
   height: auto; /* Maintain aspect ratio */
   cursor: pointer;
-  margin-top: 180px; /* Remove unnecessary margin to prevent vertical scroll */
+  margin-top: 250px; /* Remove unnecessary margin to prevent vertical scroll */
 }
 
 /* Responsive adjustments */
@@ -41,8 +41,8 @@ html, body {
   }
 
   .logo {
-    max-width: 260px !important; /* Adjust logo size for smaller devices */
-    margin-top: 250px !important; /* Ensure no extra margin creates overflow */
+    max-width: 275px !important; /* Adjust logo size for smaller devices */
+    margin-top: 300px !important; /* Ensure no extra margin creates overflow */
   }
 }
 
