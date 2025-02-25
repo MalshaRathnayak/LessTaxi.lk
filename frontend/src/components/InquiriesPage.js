@@ -4,14 +4,14 @@ import { FaHome, FaBell, FaUser, FaListUl } from 'react-icons/fa';
 import '../styles/inquiriesStyles.css'; 
 
 export const locations = [
-  { name: 'Galle', image: 'https://media1.thrillophilia.com/filestore/aobaf1yw2mrowt8a50rvhq5jhavm_1582217692_galle_lighthouse.jpg?w=753&h=450&dpr=2.0', path: '/inquiry/galle' },
-  { name: 'Kandy', image: 'https://cdn.britannica.com/19/118219-050-8BA0B67E/Dalada-Maligava-tooth-Buddha-Sri-Lanka-Kandy.jpg', path: '/inquiry/kandy' },
-  { name: 'Colombo', image: 'https://media.istockphoto.com/id/1051597002/photo/colombo-sri-lanka-capital-city-view.jpg?s=612x612&w=0&k=20&c=_HCqhyAWbWdeDyeWV6D2xlL9dNgyQZIW5I_hD4YPNgE=', path: '/inquiry/colombo' }, 
-  { name: 'Jaffna', image: 'https://travellersisle.com/wp-content/uploads/2023/02/Jaffna-Fort-5.jpg', path: '/inquiry/jaffna' },
-  { name: 'Anuradhapura', image: 'https://thevisitlankatours.com/wp-content/uploads/2024/03/Anuradhapura-Ancient-City.jpg', path: '/inquiry/anuradhapura' },
-  { name: 'Polonnaruwa', image: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/06/d6/3c/80.jpg', path: '/inquiry/polonnaruwa' },
-  { name: 'Nuwara Eliya', image: 'https://img.freepik.com/premium-photo/houseboat-gregory-lake-nuwara-eliya-lake-gregory-is-reservoir-centre-tea-country-hill-city-nuwara-eliya-sri-lanka_78361-9717.jpg', path: '/inquiry/nuwara eliya' }, 
-  { name: 'Other', image: 'https://media.istockphoto.com/id/1211536621/vector/sri-lanka-map-vector-abstract-atlas-poster.jpg?s=612x612&w=0&k=20&c=de7Gv5t-3GYk6gBN8_zrlKP2DjjH6NJPhlSQk2yJ2v8=', path: '/inquiry/other' }, 
+  { name: 'Galle', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114747/aobaf1yw2mrowt8a50rvhq5jhavm_1582217692_galle_lighthouse.jpg_h2gyow.jpg', path: '/inquiry/galle' },
+  { name: 'Kandy', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114778/Dalada-Maligava-tooth-Buddha-Sri-Lanka-Kandy_tfjk4s.jpg', path: '/inquiry/kandy' },
+  { name: 'Colombo', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114802/colombo-sri-lanka-capital-city-view_fftwka.jpg', path: '/inquiry/colombo' }, 
+  { name: 'Jaffna', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114823/Jaffna-Fort-5_nr4pcn.jpg', path: '/inquiry/jaffna' },
+  { name: 'Anuradhapura', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114854/Anuradhapura-Ancient-City_br4euh.jpg', path: '/inquiry/anuradhapura' },
+  { name: 'Polonnaruwa', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114873/80_cym0kq.jpg', path: '/inquiry/polonnaruwa' },
+  { name: 'Nuwara Eliya', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114893/houseboat-gregory-lake-nuwara-eliya-lake-gregory-is-reservoir-centre-tea-country-hill-city-nuwara-eliya-sri-lanka_78361-9717_ffrqlg.jpg', path: '/inquiry/nuwara eliya' }, 
+  { name: 'Other', image: 'https://res.cloudinary.com/dhnw7pzb9/image/upload/v1740114911/sri-lanka-map-vector-abstract-atlas-poster_wefa3j.jpg', path: '/inquiry/other' }, 
 ];
 
 const InquiriesPage = () => {

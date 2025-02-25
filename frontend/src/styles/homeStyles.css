@@ -2,7 +2,7 @@
     background-color: #ffffff;
     position: relative;
     padding: 2.3rem 1.5rem;
-    height: 100vh;
+    height: 100.5vh;
     margin: 0vh auto;
     overflow-x: hidden !important;
     min-height: calc(90vh - 50px);  
@@ -221,11 +221,33 @@
 }
 /* Media Queries for Mobile Screens */
 @media (max-width: 768px) {
+
+  
+  .text-h1 {
+    font-size: 20px !important;  
+    font-weight: bold; 
+    color: #ffffff; 
+    margin: 10px 0;
+    text-align: flex; 
+    margin-top: -70px;
+    margin-left: 25px;
+  }
+  
+  .name-text {
+    font-size: 20px !important; 
+    margin-top: -5px;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: bold; 
+    text-align: flex; 
+    position: absolute;
+  }
+  
   
   .bottom-nav {
     position: relative;
-    margin-top: 477.5px !important; 
-    margin-left: 1px;
+    bottom: -484.8px; 
+    margin-left: 0.1px;
   }
 
   .box-inquiries .box-content {
